@@ -13,8 +13,8 @@
   <h1>Big Al's Record Collection</h1>
   <div class="container">
     <form method="POST" action="/records">
-      <input type="text" placeholder="Artist" name="artist">
-      <input type="text" placeholder="Title" name="title">
+      <input type="text" placeholder="Artist" name="artist" required>
+      <input type="text" placeholder="Title" name="title" required>
       <button type="submit">Submit</button>
     </form>
     <form action="/delete" method="POST">
