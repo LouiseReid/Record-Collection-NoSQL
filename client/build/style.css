@@ -6,6 +6,7 @@ body {
 
 #records {
   width: 40%;
+  margin-left: 50px;
 }
 
 li {
@@ -38,7 +39,7 @@ h1 {
 
 .records-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 button {
